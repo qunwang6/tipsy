@@ -14,10 +14,10 @@ function Header() {
     <header className="flex items-center justify-center bg-tipsy p-6 text-gray-100">
       <div className="flex w-full max-w-xl flex-row items-center justify-between">
         <Link to="/" replace>
-          <h1 className="text-3xl md:text-4xl">Tipsy</h1>
+          <h1 className="text-3xl md:text-4xl"></h1>
         </Link>
         {settingsMatch ? (
-          <h2 className="text-2xl md:text-3xl">v{__VERSION__}</h2>
+          <h2 className="text-2xl md:text-3xl"></h2>
         ) : calcMatch ? (
           <h2 className="text-2xl md:text-3xl">{currency(bill).format()}</h2>
         ) : homeMatch ? (
