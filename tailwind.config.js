@@ -9,7 +9,7 @@ module.exports = {
         sans: ['"Source Sans 3"', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        tipsy: '#00000',
+        tipsy: '#8d6c9f',
         accent: '#f6d397',
       },
       boxShadow: {
