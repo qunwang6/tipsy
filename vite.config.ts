@@ -29,7 +29,7 @@ export default defineConfig({
         ],
         start_url: '/',
         display: 'standalone',
-        theme_color: '#000000',
+        theme_color: '#00000',
         background_color: '#ffffff',
       },
       workbox: {
