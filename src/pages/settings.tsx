@@ -56,7 +56,7 @@ function SettingsPage() {
             aria-checked={isCurrentlyDark}
             checked={isCurrentlyDark}
             onChange={handleThemeToggle}
-            onColor="#000000"
+            onColor="#8d6c9f"
           />
         </div>
         <div>
